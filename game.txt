@@ -20,3 +20,22 @@ Level 1: Need to read a file to find the password
 - ls (list)
 -l (provides a list of a directories content in long listing format)
 -a (tells the computer to not ignore entries starting with a period)
+
+bandit0@bandit:~$ ls
+readme
+bandit0@bandit:~$ ls -la
+total 24
+drwxr-xr-x  2 root    root    4096 Jul 17 15:57 .
+drwxr-xr-x 70 root    root    4096 Jul 17 15:58 ..
+-rw-r--r--  1 root    root     220 Mar 31 08:41 .bash_logout
+-rw-r--r--  1 root    root    3771 Mar 31 08:41 .bashrc
+-rw-r--r--  1 root    root     807 Mar 31 08:41 .profile
+-rw-r-----  1 bandit1 bandit0  437 Jul 17 15:57 readme
+bandit0@bandit:~$ cat readme
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+
+The password you are looking for is: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
