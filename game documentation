@@ -1,0 +1,22 @@
+Level 0: Connect to a game using ssh
+- ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+"olabs@Olabs-Mridula-Thulasiramen-11 SSH-Linux-command- % ssh bandit0@bandit.labs.overthewire.org -p 2220
+                         _                     _ _ _   
+                        | |__   __ _ _ __   __| (_) |_ 
+                        | '_ \ / _` | '_ \ / _` | | __|
+                        | |_) | (_| | | | | (_| | | |_ 
+                        |_.__/ \__,_|_| |_|\__,_|_|\__|
+                                                       
+
+                      This is an OverTheWire game server. 
+            More information on http://www.overthewire.org/wargames
+
+bandit0@bandit.labs.overthewire.org's password: 
+Received disconnect from 13.50.165.192 port 2220:2: Too many authentication failures
+Disconnected from 13.50.165.192 port 2220"
+
+Level 1: Need to read a file to find the password
+- ls (list)
+-l (provides a list of a directories content in long listing format)
+-a (tells the computer to not ignore entries starting with a period)
